@@ -1,2 +1,2 @@
 # nsswebproject
-Este repositório possui a finalidade de hospedar o primeiro projeto individual solicitado no curso de tecnologica da Kick.
+This repository is intended to host the first individual project requested in the Kick technology course.
