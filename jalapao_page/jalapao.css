@@ -25,6 +25,7 @@
 }
 #header h1{
     font-family: mavenTitles;
+    position: absolute;
 }
 #header button{
     background-color: #AC8641;
@@ -39,6 +40,10 @@
 #header button a{
     text-decoration: none;
     color: white;
+}
+#home-btn{
+    display: flex;
+    margin-right: 90%;
 }
 #center-content{
     background-color: #AC8641;
