@@ -36,10 +36,15 @@
     border: 0;
     font-family: kodaLabs;
     margin: 15px;
+    transition: 0.5s;
 }
 #header button a{
     text-decoration: none;
     color: white;
+}
+#header button:hover{
+    transform: scale(1.1);
+    background-color: #0fe26e;
 }
 #home-btn{
     display: flex;
