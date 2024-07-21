@@ -98,9 +98,14 @@
         width: 90%;
         height: 200px;
     }
+    #center-content{
+    height: 610px;
+    display: grid;
+}
     #footer{
-        height: 15px;
-        font-size: x-small;
+    height:20px;
+     font-size: x-small;
+    line-height:20px;
     }
     .images-description{
         font-size: small;

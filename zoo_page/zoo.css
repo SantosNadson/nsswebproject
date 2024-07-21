@@ -82,25 +82,28 @@
 }
 /*mobile adaptation*/
 @media (max-width:800px){
-    #header h1{
-        font-size:large;
-        margin-left: 10%;
-    }
-    #home-btn{
-        margin-right:80%;
-        height: 10px;
-        width: 80px;
-    }
-    #header{
-        line-height: 60px;
-    }
-    .images{
-        width: 90%;
-        height: 200px;
-    }
-    #footer{
-        height: 15px;
-        font-size: x-small;
-    }
+#header h1{
+    font-size:large;
+    margin-left: 10%;
+}
+#home-btn{
+    margin-right:80%;
+    height: 10px;
+    width: 80px;
+}
+.images{
+    width: 90%;
+    height: 200px;
+}
+#center-content{
+    height: 610px;
+    display: grid;
+}
+#footer{
+    height:20px;
+    font-size: x-small;
+    line-height:20px;
+}
+
     
 }
