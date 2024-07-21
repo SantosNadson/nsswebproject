@@ -73,6 +73,9 @@
     max-width: 100%;
     border-radius: 15px;
 }
+.images-description{
+    font-family: kodaTitles;
+}
 #footer{
     width: 100%;
     height:30;
@@ -98,6 +101,9 @@
 #center-content{
     height: 610px;
     display: grid;
+}
+#center-content p{
+    font-size: small;
 }
 #footer{
     height:20px;

@@ -102,6 +102,9 @@
     height: 610px;
     display: grid;
 }
+    #center-content p{
+        font-size: small;
+    }
     #footer{
     height:20px;
      font-size: x-small;
@@ -109,5 +112,6 @@
     }
     .images-description{
         font-size: small;
+        font-family:kodaTitles;
     }
 }

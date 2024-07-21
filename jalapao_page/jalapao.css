@@ -98,9 +98,16 @@
         width: 90%;
         height: 200px;
     }
+    .images-description{
+        font-family: kodaTitles;
+    }
     #center-content{
         height: 610px;
-    display: grid;}
+    display: grid;
+}
+#center-content p{
+    font-size:small;
+}
     #footer{
         height:20px;
         font-size: x-small;
