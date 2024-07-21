@@ -102,5 +102,7 @@
         height: 15px;
         font-size: x-small;
     }
-    
+    .images-description{
+        font-size: small;
+    }
 }
