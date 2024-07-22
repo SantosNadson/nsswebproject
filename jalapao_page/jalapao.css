@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    height: 100vh;
-}
 
 @font-face {
     font-family: mavenTitles;
@@ -112,7 +109,8 @@ body{
     }
 
     #header {
-        line-height:10vh;
+        line-height: 70px;
+        height: 70px;
     }
 
     .images {
@@ -125,7 +123,7 @@ body{
     }
 
     #center-content {
-        height: 85vh;
+        height: 700px;
         display: grid;
     }
 
@@ -135,9 +133,8 @@ body{
 
     #footer {
         text-align: center;
-        height:5vh;
+        height: 50px;
         font-size: x-small;
-        line-height: 20px;
+        line-height: 50px;
     }
-
 }
