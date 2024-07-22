@@ -1,12 +1,12 @@
-function exitAdvice1(){
+function exitAdvice1() {
     alert("Você será levado para o site de hospedagens ALL")
 }
-function exitAdvice2(){
+function exitAdvice2() {
     alert("Você será levado para o site de viagens LATAM AIRLINES")
 }
-function mobileAdvice1(){
+function mobileAdvice1() {
     alert("Você será levado para o site de hospedagens ALL")
 }
-function mobileAdvice2(){
+function mobileAdvice2() {
     alert("Você será levado para o site de viagens LATAM AIRLINES")
 }

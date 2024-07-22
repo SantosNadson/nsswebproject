@@ -127,6 +127,10 @@
         display: grid;
     }
 
+    #center-content h2 {
+        font-size: larger;
+    }
+
     #center-content p {
         font-size: small;
     }

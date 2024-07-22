@@ -1,33 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 @font-face {
     font-family: mavenTitles;
     src: url(../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf);
 }
+
 @font-face {
     font-family: kodaTitles;
     src: url(../fonts/Kodchasan/Kodchasan-SemiBold.ttf);
 }
+
 @font-face {
     font-family: kodaLabs;
     src: url(../fonts/Kodchasan/Kodchasan-ExtraLight.ttf);
 }
-#header{
+
+#header {
     background-color: #134D49;
     width: 100%;
-    display:flex;
+    display: flex;
     height: 70px;
     color: white;
-    justify-content: center; 
-    line-height:70px;
+    justify-content: center;
+    line-height: 70px;
 }
-#header h1{
+
+#header h1 {
     font-family: mavenTitles;
     position: absolute;
 }
-#header button{
+
+#header button {
     background-color: #336D51;
     width: 100px;
     height: 30px;
@@ -38,80 +44,102 @@
     margin: 15px;
     transition: 0.5s;
 }
-#header button a{
+
+#header button a {
     text-decoration: none;
     color: white;
 }
-#header button:hover{
+
+#header button:hover {
     transform: scale(1.1);
     background-color: #1dbeb4;
 }
-#home-btn{
+
+#home-btn {
     display: flex;
     margin-right: 90%;
 }
-#center-content{
+
+#center-content {
     background-color: #336D51;
     text-align: center;
     color: white;
     width: 100%;
-    height:100%;
+    height: 100%;
     font-family: kodaLabs;
     padding-top: 1%;
 }
-#center-content h2{
+
+#center-content h2 {
     font-family: kodaTitles;
     margin: 10px;
 }
-#center-content p{
+
+#center-content p {
     padding: 10px;
 }
-.images{
+
+.images {
     width: 1000px;
     height: 400px;
     padding-top: 1%;
     max-width: 100%;
     border-radius: 15px;
 }
-#footer{
+
+#footer {
     width: 100%;
-    height:30;
+    height: 30;
     background-color: #134D49;
     color: white;
     font-family: kodaLabs;
 }
+
 /*mobile adaptation*/
-@media (max-width:800px){
-    #header h1{
-        font-size:large;
+@media (max-width:800px) {
+    #header h1 {
+        font-size: large;
         margin-left: 10%;
     }
-    #home-btn{
-        margin-right:80%;
+
+    #home-btn {
+        margin-right: 80%;
         height: 10px;
         width: 80px;
     }
-    #header{
-        line-height: 60px;
+
+    #header {
+        line-height: 70px;
+        height: 70px;
     }
-    .images{
+
+    .images {
         width: 90%;
         height: 200px;
     }
-    #center-content{
-    height: 610px;
-    display: grid;
-}
-    #center-content p{
+
+    #center-content {
+        height: 700px;
+        display: grid;
+    }
+
+    #center-content h2 {
+        font-size: larger;
+    }
+
+    #center-content p {
         font-size: small;
     }
-    #footer{
-    height:20px;
-     font-size: x-small;
-    line-height:20px;
+
+    #footer {
+        text-align: center;
+        height: 50px;
+        font-size: x-small;
+        line-height: 50px;
     }
-    .images-description{
+
+    .images-description {
         font-size: small;
-        font-family:kodaTitles;
+        font-family: kodaTitles;
     }
 }
