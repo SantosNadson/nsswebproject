@@ -136,6 +136,11 @@
         line-height: 50px;
     }
 
+    .images {
+        width: 90%;
+        height: 200px;
+    }
+
     .images-description {
         font-size: small;
         font-family: kodaTitles;
