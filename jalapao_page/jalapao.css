@@ -108,8 +108,7 @@
         margin-left: 60px;
         margin-top: 20px;
         align-items: center;
-        display: flexbox;
-        
+        display: flexbox;        
     }
     #header button{
         max-width: 100%;
