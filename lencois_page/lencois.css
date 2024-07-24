@@ -102,30 +102,23 @@
         margin-left: 10%;
     }
 
-    #home-btn{
-        width:100px;
+    #home-btn {
+        width: 100px;
         height: 30px;
         margin-left: 60px;
         margin-top: 20px;
         align-items: center;
-        display: flexbox;    
+        display: flexbox;
     }
 
-    #header button{
+    #header button {
         max-width: 100%;
         max-height: 100%;
     }
+
     #center-content {
         height: 700px;
         display: grid;
-    }
-
-    @media only screen and (min-width:320px) and (max-height:950px) and (-webkit-min-device-pixel-ratio: 2){
-    
-        #header button:hover{
-            transform: scale(1);
-            background-color: #AC8641;
-        }
     }
 
     #center-content h2 {
@@ -146,5 +139,13 @@
     .images-description {
         font-size: small;
         font-family: kodaTitles;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-height:950px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    #header button:hover {
+        transform: scale(1);
+        background-color: #1dbeb4;
     }
 }
